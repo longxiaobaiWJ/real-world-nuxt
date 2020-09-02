@@ -3,7 +3,7 @@
 
 ## 1. RealWorld链接
 
-https://github.com/gothinkster/realworld
+github：https://github.com/gothinkster/realworld
 模板：https://github.com/gothinkster/realworld-starter-kit/blob/master/FRONTEND_INSTRUCTIONS.md
 api：https://github.com/gothinkster/realworld/tree/master/api
 site：https://demo.realworld.io/
@@ -174,7 +174,7 @@ const [articles_code, tags_code] = compatibleWith(allSettledCallback);
 
      
 
-4. 
+4. 创建自动部署
 
      自动化部署工具：Jenkins、Github actions等
 
@@ -205,7 +205,24 @@ const [articles_code, tags_code] = compatibleWith(allSettledCallback);
        real_world_nuxt\.git\workflows\main.yml
 
      + pm2.config.json
+     
      + 配置服务器信息，根据main.yml配置信息准备
+     
+5. 触发自动部署
 
+     ```shell
+     git tag v0.x.x
+     git tag #查看tag
+     git push origin v0.x.x
+     ```
 
 ​       
+
+## 5. 问题
+
+```javascript
+// gist.github.com 无法访问解决办法
+windows下 打开C:\Windows\System32\drivers\etc\hosts文件   
+
+编辑器打开，在最后行添加192.30.253.118 gist.github.com
+```
