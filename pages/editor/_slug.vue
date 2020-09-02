@@ -61,7 +61,7 @@
 <script>
 import { updateArticle, createArticle, getArticleSingle } from "@/api/article";
 import MarkdownIt from "markdown-it";
-import ErrorMessage from "~/components/ErrorMessage";
+import ErrorMessage from "@/components/errorMessage";
 
 export default {
   name: "EditorPage",

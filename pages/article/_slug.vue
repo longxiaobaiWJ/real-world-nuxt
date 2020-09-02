@@ -34,8 +34,8 @@
 import { getArticleSingle } from "@/api/article";
 import { getCommentArticle } from "@/api/comment";
 import MarkdownIt from "markdown-it";
-import ArticleMeta from "~/components/ArticleMeta";
-import ArticleComments from "~/components/articleComments";
+import ArticleMeta from "@/components/articleMeta";
+import ArticleComments from "@/components/articleComments";
 
 export default {
   name: "ArticlePage",
