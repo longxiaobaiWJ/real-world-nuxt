@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import FormComponent from "../../components/formComponent";
+import FormComponent from "~/components/formComponent";
 
 export default {
   name: "LoginPage",

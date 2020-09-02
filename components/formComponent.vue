@@ -38,7 +38,7 @@
 
 <script>
 import { login, register } from "@/api/auth";
-import ErrorMessage from "./ErrorMessage";
+import ErrorMessage from "~/components/ErrorMessage";
 
 export default {
   name: "FormComponent",
