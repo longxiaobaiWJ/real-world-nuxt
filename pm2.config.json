@@ -1,6 +1,6 @@
 {
     "apps": [{
-        "name": "real-world-nuxt",
+        "name": "real-world-actions",
         "script": "npm",
         "args": "start"
     }]
