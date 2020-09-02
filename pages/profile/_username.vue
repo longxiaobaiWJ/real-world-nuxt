@@ -71,9 +71,9 @@
 <script>
 import { mapState } from "vuex";
 import { obtainProfile, followUser, unFollowUser } from "@/api/auth";
-import ArticleItem from "@/components/articleItem";
+import ArticleItem from "../../components/articleItem";
 import { getArticles, feedArticles } from "@/api/article";
-import PaginationComponent from "@/components/paginationComponent";
+import PaginationComponent from "../../components/paginationComponent";
 
 export default {
   name: "ProfileIdPage",

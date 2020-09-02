@@ -98,8 +98,8 @@
 import { mapState } from "vuex";
 import { getArticles, feedArticles } from "@/api/article";
 import { getTags } from "@/api/tag";
-import PaginationComponent from "@/components/paginationComponent";
-import ArticleItem from "@/components/articleItem";
+import PaginationComponent from "../components/paginationComponent";
+import ArticleItem from "../components/articleItem";
 import { compatibleWith } from "@/utils/wrapper.js";
 
 export default {
