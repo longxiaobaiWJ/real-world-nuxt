@@ -1,6 +1,6 @@
 module.exports = {
     router: {
-        base: '/nuxt/',
+        // base: '/nuxt/',
         linkActiveClass: 'active',
         extendRoutes(routes, resolve) {
 
