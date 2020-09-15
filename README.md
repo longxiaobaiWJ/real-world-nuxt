@@ -296,6 +296,14 @@ git push origin v0.x.x
        }
    }
    
+   // nginx.conf
+   location /nuxt/ {
+       proxy_pass http://132.xxx.xx.xx:3000;   #结尾无斜杠
+   }
+   // 若访问 http://nginx_server/test/index.html
+   // 结尾无斜杠，则该请求被代理到: http://132.xxx.xx.xx/test/index.html
+   // 结尾有斜杠，则该请求被代理到: http://132.xxx.xx.xx/index.html
+   
    // 配置base后，其他静态资源，如页面通过link标签引用css资源，可能出现资源找不到的问题，注意测试解决
    ```
 
