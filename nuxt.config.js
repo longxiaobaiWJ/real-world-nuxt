@@ -1,6 +1,6 @@
 module.exports = {
     router: {
-        // base: '/nuxt/',
+        // base: '/nuxt/', // 使用vercel测试时，不能添加
         linkActiveClass: 'active',
         extendRoutes(routes, resolve) {
 
